@@ -1,4 +1,4 @@
-package software.spool.publisher.api;
+package software.spool.ingester.api;
 
 import software.spool.core.model.IdempotencyKey;
 import software.spool.core.model.InboxItemStatus;

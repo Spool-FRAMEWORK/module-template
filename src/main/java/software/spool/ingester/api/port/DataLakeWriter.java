@@ -1,4 +1,7 @@
 package software.spool.ingester.api.port;
 
-public interface DatalakeWriter {
+import java.util.stream.Stream;
+
+public interface DataLakeWriter {
+    void write(Stream<String> items);
 }

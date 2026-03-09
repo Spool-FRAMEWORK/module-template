@@ -1,4 +1,4 @@
-package software.spool.publisher.internal.util;
+package software.spool.ingester.internal.adapter;
 
 import software.spool.core.control.Handler;
 import software.spool.core.exception.EventBusEmitException;
@@ -7,7 +7,6 @@ import software.spool.core.model.Event;
 import software.spool.ingester.api.port.EventBusEmitter;
 import software.spool.ingester.api.port.EventBusListener;
 import software.spool.ingester.api.port.Subscription;
-import software.spool.ingester.internal.adapter.InMemorySubscription;
 
 import java.util.List;
 import java.util.concurrent.ConcurrentHashMap;

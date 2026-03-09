@@ -1,4 +1,4 @@
-package software.spool.ingester.api;
+package software.spool.ingester.internal.utils;
 
 import software.spool.core.model.ItemPublished;
 
