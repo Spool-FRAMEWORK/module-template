@@ -13,6 +13,7 @@ import java.time.Duration;
 import java.util.stream.IntStream;
 
 public class Main {
+    // TODO: Implement error router
     private static final InMemoryEventBus bus = createEventBus();
     private static final InMemoryDataLake dataLake = createDataLake();
 
