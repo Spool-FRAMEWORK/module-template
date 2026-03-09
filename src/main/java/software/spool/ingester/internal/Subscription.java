@@ -1,0 +1,11 @@
+package software.spool.ingester.api;
+
+public interface Subscription {
+    Subscription NULL = new Subscription() {
+        @Override public void cancel() {}
+        @Override public boolean isActive() { return false; }
+    };
+
+    void cancel();
+    boolean isActive();
+}
