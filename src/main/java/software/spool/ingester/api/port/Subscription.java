@@ -1,4 +1,4 @@
-package software.spool.ingester.api;
+package software.spool.ingester.internal;
 
 public interface Subscription {
     Subscription NULL = new Subscription() {
